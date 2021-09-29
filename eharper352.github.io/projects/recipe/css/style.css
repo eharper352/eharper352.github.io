@@ -1,0 +1,43 @@
+body{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  margin-top: 20px;
+
+}
+
+h1,
+h2{
+  font-family: 'Lora', serif;
+  color: #A17BC0;
+}
+
+h1{
+  font-size: 3em;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+h2{
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+header{
+  color: #AA4212;
+  line-height: .5;
+}
+
+.ingredients{
+  background-color: lightgray;
+  margin-bottom: 20px;
+}
+img{
+  border-radius: 10px;
+  padding: 5px;
+  width: 250px;
+}
+.versatility{
+color:rgb(17, 236, 252);
+}
