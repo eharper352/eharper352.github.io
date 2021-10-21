@@ -1,5 +1,5 @@
 body{
-  background: #F2C2ED;
+  background-color: #CCF4EA;
 }
 
 h1,
@@ -15,6 +15,7 @@ h6{
 ul,
 p{
 font-family: 'Gothic A1', sans-serif;
+font-weight: bold;
 }
 
 .header{
@@ -53,4 +54,13 @@ img{
 
 .side-note{
   font-family: 'Gothic A1', sans-serif
+}
+
+@media (min width: 450px){
+  h1{
+    font-size: 6em;
+  }
+  .nav{
+    margin-bottom: 40px;
+  }
 }
