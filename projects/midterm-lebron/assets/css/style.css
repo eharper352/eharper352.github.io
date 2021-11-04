@@ -1,0 +1,123 @@
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5em;
+  font-weight: 700;
+}
+
+p{
+  font-family: 'Roboto Mono', monospace;
+  line-height: 1.5;
+}
+
+a:link, a:visited{
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover{
+  background-color: #A8FF00;
+}
+
+.center{
+  width: 150px;
+  padding-top: 10px;
+  padding-bottom: 60px;
+  margin: 0 auto;
+}
+
+.chart1{
+  margin-top: 30px;
+}
+
+.chart2{
+  margin-top: 30px;
+}
+
+.charts{
+  font-size: .8em;
+  list-style-type: none;
+}
+
+.rank{
+margin-top: 30px;
+}
+
+.description{
+  padding-top: 40px;
+}
+
+.caption{
+font-weight: 200;
+font-size: .8em;
+font-style: italic;
+color: #8E8E8E;
+margin: 10px;
+}
+
+.summary{
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.text{
+background-color: #A8FF00;
+}
+
+.image{
+box-shadow: 10px 7px #A8FF00;
+}
+
+.footer{
+  padding-top: 20px;
+  font-size: .8em;
+  border-top: 2px dashed gray;
+  margin-bottom: 40px;
+}
+
+.green{
+font-family: 'Roboto Mono', monospace;
+background-color: #A8FF00;
+font-size: .9em;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+@media (max-width:775px){
+  h1{
+    font-size: 2em;
+  }
+  .logo{
+    margin-bottom: 15px;
+  }
+  .green{
+    background: none;
+    margin-bottom: 20px;
+  }
+  .rank{
+    border-bottom: 1px solid #8E8E8E;
+  }
+  .image{
+    box-shadow: none;
+    border-top: 3px solid #A8FF00;
+    border-bottom: 3px solid #A8FF00;
+  }
+  .charts{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .col-md-7{
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 375px){
+  .charts{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
